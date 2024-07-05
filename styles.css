@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto";
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container 1 */
+
+.container-1 {
+  background-color: #1f2937;
+  padding: 0 200px 200px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  gap: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-image {
+  background-color: #43546e;
+  padding: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-grow: 1;
+}
+
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header a,
+.hero-main .subtext,
+.placeholder {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-main .maintext {
+  max-width: 400px;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-main .subtext {
+  max-width: 450px;
+}
+
+.hero-main button {
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  background-color: #3882f6;
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 24px;
+
+  align-self: flex-start;
+}
+
+/* Container 2 */
+
+.container-2 {
+  padding: 0 200px 75px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-text {
+  padding: 32px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.info-container {
+  display: flex;
+  gap: 60px;
+
+  flex-wrap: wrap;
+}
+
+.info {
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.image-container {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 8px;
+}
+
+.info {
+  text-align: center;
+}
+
+/* Container 3 */
+
+.container-3 {
+  background: #e5e7eb;
+  padding: 100px 360px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: bold;
+
+  align-self: flex-end;
+}
+
+/* Container 4 */
+
+.container-4 {
+  padding: 100px 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-container {
+  background-color: #3882f6;
+  border-radius: 8px;
+
+  display: flex;
+  padding: 50px 150px;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.action {
+  font-weight: bold;
+  color: #f9faf8;
+  font-size: 28px;
+}
+.action-desc {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.blue-container div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sign-up-button {
+  cursor: pointer;
+  border: 3px solid white;
+  background-color: #3882f6;
+  border-radius: 8px;
+  color: white;
+  padding: 5px 40px;
+  font-size: 20px;
+
+  align-self: center;
+}
+
+/* Container 5 */
+
+.container-5 {
+  background-color: #1f2937;
+  padding: 40px 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: #e5e7eb;
+  font-size: 18px;
+}
